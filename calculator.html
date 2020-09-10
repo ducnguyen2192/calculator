@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="upperContainer">
+    <form>
+        <label><h1>Calculator</h1></label>
+        <div id="divLeft">
+            <input type="text" id="firstNum">
+        </div>
+        <div id="divRight">
+            <input type="text" id="secondNum">
+        </div>
+    </form>
+    </div>
+    <div class="lowerContainer">
+        <div class="1">
+            <button onclick="addition()">
+                Addition(+)
+            </button>
+        </div>
+        <div class ="2">
+            <button onclick="subtraction()">
+                Subtraction(-)
+            </button>
+        </div>
+        <div class="3">
+            <button onclick="multiplication()">
+                Multiplication(*)
+            </button>
+        </div>
+        <div class="4">
+            <button onclick="division()">
+                division(/)
+            </button>
+        </div>
+    </div>
+    <p id="result"></p>
+</body>
+</html>
+
+<script src="calculator.js"></script>
